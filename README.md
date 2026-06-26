@@ -176,9 +176,11 @@ mathsoc-instagram-content-analytics/
     └── generate_summary_tables.py
 ```
 
-## Notes on Data Privacy
+## Data Privacy Note
 
-Raw Meta Business Suite exports may contain organization-specific performance data. For public GitHub use, raw files may be excluded or replaced with anonymized sample datasets that preserve the same schema. The analysis workflow and dashboard structure can still be demonstrated without exposing sensitive internal data.
+The original dataset was exported from MathSoc’s Meta Business Suite account and contains organization-specific Instagram performance metrics. To protect organizational data privacy, raw exports and actual cleaned datasets are not included in this public repository.
+
+This repository includes anonymized sample data with the same schema used in the analysis. The notebooks demonstrate the data cleaning, KPI calculation, and reporting workflow without exposing internal performance data.
 
 ## Project Outcome
 
