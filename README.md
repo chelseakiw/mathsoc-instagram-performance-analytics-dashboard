@@ -1,4 +1,4 @@
-# MathSoc-Social-Media-Analytics-Report
+# MathSoc Instagram Performance Analytics Dashboard
 
 ## Project Initiative
 
