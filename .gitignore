@@ -1,2 +1,23 @@
-data/raw/
-data/processed/*private*.csv
+# Private raw Instagram exports
+data/raw/*.csv
+
+# Private processed datasets
+data/processed/*.csv
+
+# Private analysis outputs based on real data
+outputs/*.csv
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+
+# System files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

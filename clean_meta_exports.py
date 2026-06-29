@@ -30,7 +30,7 @@ W26_RAW = RAW_DIR / "raw_meta_w26.csv"
 
 
 def clean_column_name(col: str) -> str:
-    """Convert column names like 'Publish time' into 'publish_time'."""
+    #Convert column names like 'Publish time' into 'publish_time'
     return (
         col.strip()
         .lower()
@@ -43,10 +43,10 @@ def clean_column_name(col: str) -> str:
 
 
 def read_raw_file(path: Path, term: str) -> pd.DataFrame:
-    """Read one Meta export and add a term label."""
-    if not path.exists():
+    #Read one Meta export and add a term label
+    if not path.exist():
         raise FileNotFoundError(f"Cannot find {path}. Check your file name and folder location.")
-
+    
     df = pd.read_csv(path)
     df["term"] = term
     return df
